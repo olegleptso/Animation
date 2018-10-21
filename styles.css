@@ -1,0 +1,48 @@
+.hovertop {
+	height: 100px;
+	width:200px;
+	margin: auto;
+	background-color: aqua;
+	border: 2px solid #1f5fd8;
+	-webkit-transition: width 2s, height 2s, background-color 2s, color 2s;
+    transition: width 2s, height 2s, background-color 2s, color 2s;
+}
+
+.hoverbot {
+	height: 100px;
+	width:200px;
+	margin: auto;
+	background-color: black;
+	color:aqua;
+	border: 2px solid #1f5fd8;
+	-webkit-transition: width 2s, height 2s, background-color 2s, color 2s;
+    transition: width 2s, height 2s, background-color 2s, color 2s;
+}
+
+.hovertop:hover {
+	width: 1000px;
+	height: 50px;
+	color:aqua;
+	background-color: black;
+}
+
+.hoverbot:hover {
+	width: 1000px;
+	height: 50px;
+	color:black;
+	background-color: aqua;
+}
+
+.fading {
+	margin: auto;
+	width: 1000px;
+	height: 50px;
+	background-color: #e08686;
+	opacity: 1;
+	-webkit-transition: opacity 2s;
+	transition: opacity 2s;
+}
+
+.fading:hover {
+	opacity: 0;
+}
