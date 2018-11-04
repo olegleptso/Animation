@@ -7,7 +7,6 @@
 	-webkit-transition: width 2s, height 2s, background-color 2s, color 2s;
     transition: width 2s, height 2s, background-color 2s, color 2s;
 }
-
 .hoverbot {
 	height: 100px;
 	width:200px;
